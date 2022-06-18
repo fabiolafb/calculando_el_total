@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando el total</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <!--card producto-->  
+        <div class="main__card-laptop">
+            <img class="laptop" src="assets/img/Alienware-Laptop-PNG-HD-Image.png" alt="">
+            
+            <p class="main__card-laptop--letter"> <b>Alienware Laptop</b></p>
+            
+            <input id="cantidad" class="main__card-laptop--entrada-cantidad" type="number" placeholder="Cantidad">
+            
+            <input id="color" class="main__card-laptop--entrada-color" type="text" placeholder="Color">
+            
+            <h3 id="precio" class="main__card-laptop--precio" value="500000"><strong>Precio: $500.000</strong>  </h3>
+
+            <button onclick="calcular()" class="button-total" type="button" value="Calcular total"> 
+                Calcular Total </button> 
+        </div>
+
+        <!--resultados-->  
+        <div class="main__resultado">
+            <p class="main__resultado--letter"> Total: <span id="total"></span></p>
+            <p class="main__resultado--letter">Cantidad: <span id="cant-total"></span> </p>
+            <p class="main__resultado--letter">Color:  <span id="color-final" class="circle">  </span></p> 
+          </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

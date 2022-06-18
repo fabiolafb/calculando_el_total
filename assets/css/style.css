@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2? family=Raleway:wght@200;400;700&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 0 0rem;
+  width: 100%;
+}
+
+/* card producto */
+.main__card-laptop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(20, 170, 229);
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 22%;
+  height: 25em;
+  padding: 1.5rem 0;
+  box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 2rem;
+}
+
+.main__card-laptop--precio {
+  align-self: auto;
+}
+
+.laptop {
+  width: 80%;
+}
+
+.main__card-laptop--letter {
+  color: white;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}
+
+input {
+  width: 80%;
+  height: 1.4rem;
+  border-radius: 7px;
+  font-size: 1.1rem;
+  border: 0.8px solid;
+}
+
+.button-total {
+  width: 60%;
+  height: 1.9rem;
+  background-color: goldenrod;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid rgb(56, 54, 54);
+  box-shadow: 1.5px 1.5px 0px 0 rgba(0, 0, 0, 0.904);
+}
+
+/* resultados */
+.main__resultado {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__resultado--letter {
+  margin-top: 0.6rem;
+  font-size: 1.3rem;
+}
+
+.circle {
+  background-color: white;
+  padding: 0.1rem 0.9rem;
+  border-radius: 100%;
+  margin-left: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+}
+
+/*# sourceMappingURL=style.css.map */
